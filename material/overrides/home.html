@@ -1,0 +1,40 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "overrides/main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="tx-container">
+    <div class="md-grid md-typeset">
+      <div class="tx-hero">
+        <div class="tx-hero__image">
+          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="tx-hero__content">
+          <h1>VTest之路</h1>
+          <p>{{ config.site_description }}</p>
+          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            Go To VTest
+          </a>
+          <a href="{{ config.repo_url }}" target="_blank" title="Go To GitHub" class="md-button">
+            Go To GitHub
+          </a>
+          <a href="http://yapi.vtest.top" target="_blank" title="Go To GitHub" class="md-button">
+            Go To YAPI接口管理
+          </a>
+          <a href="http://jenkins.vtest.top" target="_blank" title="Go To GitHub" class="md-button">
+            Go To Jenkins工作台
+          </a>
+          <a href="http://pms.vtest.top/zentaopms/www/index.php" target="_blank" title="Go To VTest禅道开源版" class="md-button">
+            Go To VTest禅道开源版
+          </a>
+         
+          
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
