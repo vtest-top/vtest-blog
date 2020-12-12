@@ -20,7 +20,7 @@
 
 # Project information
 site_name: VTest
-site_url: https://github.com/vtest-top/
+# site_url: http://vtest.top
 site_author: vtest admin
 site_description: >-
   软件测试、功能测试、测试工具、接口测试、自动化测试、性能测试、安全测试、Python、测试管理等...
