@@ -23,7 +23,7 @@ site_name: VTest
 site_url: https://github.com/vtest-top/
 site_author: vtest admin
 site_description: >-
-  描述。。。。。。。。。。。。。。。。。。。。
+  软件测试、功能测试、测试工具、接口测试、自动化测试、性能测试、安全测试、Python、测试管理等...
 
 # Repository
 repo_name: vtest-top/vtest-blog
@@ -144,16 +144,27 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 软件测试之道:
-    - 什么是测试: softtest/test1.md
+    - 软件测试的前景: softtest/软件测试的前景.md
+    - 软件测试核心概念: softtest/软件测试核心概念.md
+    - 功能测试准入准出: softtest/功能测试准入准出.md
+    - 性能测试准入准出规范: softtest/性能测试准入准出规范.md
+  - 接口测试:
+    - 接口测试、接口协议以及常用接口测试工具详解: apis/接口测试、接口协议以及常用接口测试工具详解.md
   - 工具之旅:
     - httprunner V2.x: tools/hrun.md
+    - VSCode的 24 款插件: tools/VSCode的 24 款插件.md
   - Python之禅:
-    - 字符串: python/strings.md
-    - 数字类型: python/int.md
+    - Python自动化第一周: python/Python自动化第一周.md
+    - Python自动化第二周: python/Python自动化第二周.md
+    - Python自动化第三周: python/Python自动化第三周.md
+    - Python自动化第四周: python/Python自动化第四周.md
+    - Python自动化第五周: python/Python自动化第五周.md
+    - Python日志管理之loguru: python/Python日志管理之loguru.md
+    - Python之并发请求: python/Python之并发请求.md
   - VTest之笔记:
-    - 2020年总结: vlog/vlog.md
+    - 2020年总结: vlog/2020.md
   - 关于VTest:
-    - about: about/about.md
+    - 关于: about/about.md
 
 # Google Analytics
 google_analytics:
