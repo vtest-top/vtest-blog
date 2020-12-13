@@ -53,7 +53,7 @@ theme:
     - navigation.instant
   palette:
     scheme: default
-    primary: indigo
+    primary: indigo #indigo orange
     accent: indigo
   font:
     text: Roboto
